@@ -4,11 +4,37 @@
   
     
     <entry>
-      <title>博客简介</title>
-      <link href="/2023/06/21/2023-06-21%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/"/>
-      <url>/2023/06/21/2023-06-21%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/</url>
+      <title>模板下载/数据导出</title>
+      <link href="/2023/06/21/%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%87%BA-%E4%B8%8B%E8%BD%BD/"/>
+      <url>/2023/06/21/%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%87%BA-%E4%B8%8B%E8%BD%BD/</url>
       
-        <content type="html"><![CDATA[<h2 id="我的博客简介"><a href="#我的博客简介" class="headerlink" title="我的博客简介"></a>我的博客简介</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="二、数据模板的下载和数据的导出-–-excel"><a href="#二、数据模板的下载和数据的导出-–-excel" class="headerlink" title="二、数据模板的下载和数据的导出 – excel"></a>二、数据模板的下载和数据的导出 – excel</h2><p>&#x2F;&#x2F; ★ 根据调用后端数据接口： dowmloadExcel<br>&#x2F;&#x2F; ★ 封装 dowmloadExcel 接口时，要添加 responseType: ‘blob’ 这个参数<br>methods:{<br>    async getExcel(){<br>        const res &#x3D; await dowmloadExcel()<br>        const link &#x3D; document.createElement(‘a’) &#x2F;&#x2F; 创建隐藏的a链接<br>        const blob &#x3D; new Blob([res],{type: ‘application&#x2F;vnd.ms-excel’}) &#x2F;&#x2F; 创建Blob对象<br>        link.style.display &#x3D; ‘none’ &#x2F;&#x2F; 隐藏link<br>        link.href &#x3D; URL.createObjectURL(blob)<br>        link.download &#x3D; ‘xxxx.xlsx’; &#x2F;&#x2F; 设置excel表格名称<br>        document.body.appendChild(link); &#x2F;&#x2F; body中追加link<br>          link.click();  &#x2F;&#x2F; 模拟点击事件<br>        document.body.removeChild(link); &#x2F;&#x2F; 删除a标签<br>    }<br>}</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一、时间处理插件：moment的使用</title>
+      <link href="/2023/06/21/%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F%E7%9B%B8%E5%85%B3%E5%A4%84%E7%90%86%E6%96%B9%E6%B3%95/"/>
+      <url>/2023/06/21/%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F%E7%9B%B8%E5%85%B3%E5%A4%84%E7%90%86%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h2 id="时间处理插件：moment-的使用"><a href="#时间处理插件：moment-的使用" class="headerlink" title="时间处理插件：moment 的使用"></a>时间处理插件：moment 的使用</h2><p>一、时间处理插件：moment 的使用<br>1.首先下载 npm i moment<br>2.然后在组件中引入 import moment from ‘moment’<br>3.然后在时间处理的方法中 moment(‘要处理的时间’).format(‘YYYY-MM-DD h:mm:ss’) &#x2F;&#x2F; 2023-05-10 17:36:40</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>博客简介</title>
+      <link href="/2023/06/21/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/"/>
+      <url>/2023/06/21/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/</url>
+      
+        <content type="html"><![CDATA[<h2 id="我的博客简介"><a href="#我的博客简介" class="headerlink" title="我的博客简介"></a>我的博客简介</h2><p>★博客作者：大东<br>★创建时间：二零二三年六月二十一日<br>★岗位职责：Web前端开发工程师<br>★主要内容：<br>        1.研究学习技术趋势；<br>        2.分享有趣技术要点；<br>        3.记录工作中易难点；<br>        4.提升个人开发水平；<br>        (前端JS和后端JAVA)<br>★作者寄语：未来可期，对自己多一些肯定！<br>💖💖💖💖💖💖💖💖💖💖💖💖💖💖💖</p><p>🤞技术交流:<br>🤞QQ:804567467</p>]]></content>
       
       
       
@@ -31,6 +57,17 @@
     
     
     <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>link</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
@@ -42,9 +79,9 @@
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title></title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -53,9 +90,9 @@
     
     
     <entry>
-      <title></title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
