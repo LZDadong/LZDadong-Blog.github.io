@@ -5,11 +5,36 @@
     
     <entry>
       <title>模板下载/数据导出</title>
+      <link href="/2023/06/25/%E5%88%86%E7%B1%BB%E6%B5%8B%E8%AF%95/"/>
+      <url>/2023/06/25/%E5%88%86%E7%B1%BB%E6%B5%8B%E8%AF%95/</url>
+      
+        <content type="html"><![CDATA[<h2 id="分类测试JAVA"><a href="#分类测试JAVA" class="headerlink" title="分类测试JAVA"></a>分类测试JAVA</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> JAVA </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>模板下载/数据导出</title>
       <link href="/2023/06/21/%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%87%BA-%E4%B8%8B%E8%BD%BD/"/>
       <url>/2023/06/21/%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%87%BA-%E4%B8%8B%E8%BD%BD/</url>
       
-        <content type="html"><![CDATA[<h2 id="二、数据模板的下载和数据的导出-–-excel"><a href="#二、数据模板的下载和数据的导出-–-excel" class="headerlink" title="二、数据模板的下载和数据的导出 – excel"></a>二、数据模板的下载和数据的导出 – excel</h2><p>&#x2F;&#x2F; ★ 根据调用后端数据接口： dowmloadExcel<br>&#x2F;&#x2F; ★ 封装 dowmloadExcel 接口时，要添加 responseType: ‘blob’ 这个参数<br>methods:{<br>    async getExcel(){<br>        const res &#x3D; await dowmloadExcel()<br>        const link &#x3D; document.createElement(‘a’) &#x2F;&#x2F; 创建隐藏的a链接<br>        const blob &#x3D; new Blob([res],{type: ‘application&#x2F;vnd.ms-excel’}) &#x2F;&#x2F; 创建Blob对象<br>        link.style.display &#x3D; ‘none’ &#x2F;&#x2F; 隐藏link<br>        link.href &#x3D; URL.createObjectURL(blob)<br>        link.download &#x3D; ‘xxxx.xlsx’; &#x2F;&#x2F; 设置excel表格名称<br>        document.body.appendChild(link); &#x2F;&#x2F; body中追加link<br>          link.click();  &#x2F;&#x2F; 模拟点击事件<br>        document.body.removeChild(link); &#x2F;&#x2F; 删除a标签<br>    }<br>}</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="二、数据模板的下载和数据的导出-–-excel"><a href="#二、数据模板的下载和数据的导出-–-excel" class="headerlink" title="二、数据模板的下载和数据的导出 – excel"></a>二、数据模板的下载和数据的导出 – excel</h2><p>&#x2F;&#x2F; ★ 根据调用后端数据接口： dowmloadExcel<br>&#x2F;&#x2F; ★ 封装 dowmloadExcel 接口时，要添加 responseType: ‘blob’ 这个参数<br>methods:{<br>async getExcel(){<br>const res &#x3D; await dowmloadExcel()<br>const link &#x3D; document.createElement(‘a’) &#x2F;&#x2F; 创建隐藏的 a 链接<br>const blob &#x3D; new Blob([res],{type: ‘application&#x2F;vnd.ms-excel’}) &#x2F;&#x2F; 创建 Blob 对象<br>link.style.display &#x3D; ‘none’ &#x2F;&#x2F; 隐藏 link<br>link.href &#x3D; URL.createObjectURL(blob)<br>link.download &#x3D; ‘xxxx.xlsx’; &#x2F;&#x2F; 设置 excel 表格名称<br>document.body.appendChild(link); &#x2F;&#x2F; body 中追加 link<br>link.click(); &#x2F;&#x2F; 模拟点击事件<br>document.body.removeChild(link); &#x2F;&#x2F; 删除 a 标签<br>}<br>}</p>]]></content>
       
+      
+      <categories>
+          
+          <category> JavaScript </category>
+          
+      </categories>
       
       
     </entry>
@@ -23,6 +48,12 @@
       
         <content type="html"><![CDATA[<h2 id="时间处理插件：moment-的使用"><a href="#时间处理插件：moment-的使用" class="headerlink" title="时间处理插件：moment 的使用"></a>时间处理插件：moment 的使用</h2><p>一、时间处理插件：moment 的使用<br>1.首先下载 npm i moment<br>2.然后在组件中引入 import moment from ‘moment’<br>3.然后在时间处理的方法中 moment(‘要处理的时间’).format(‘YYYY-MM-DD h:mm:ss’) &#x2F;&#x2F; 2023-05-10 17:36:40</p>]]></content>
       
+      
+      <categories>
+          
+          <category> JavaScript </category>
+          
+      </categories>
       
       
     </entry>
@@ -46,17 +77,6 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
-      
-        <content type="html"><![CDATA[#footer {  background: transparent !important;}#page-header {  background: transparent !important;}/* 白天模式遮罩透明 */#footer::before {  background: transparent !important;}#page-header::before {  background: transparent !important;}/* 夜间模式遮罩透明 */[data-theme='dark'] #footer::before {  background: transparent !important;}[data-theme='dark'] #page-header::before {  background: transparent !important;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>categories</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -68,11 +88,33 @@
     
     
     <entry>
+      <title></title>
+      <link href="/js/runtime.js"/>
+      <url>/js/runtime.js</url>
+      
+        <content type="html"><![CDATA[var now = new Date()function createtime () {  now.setTime(now.getTime() + 1e3)  var e = new Date('06/21/2023 00:00:00'),    t = Math.trunc(234e8 + ((now - e) / 1e3) * 17),    a = (t / 1496e5).toFixed(6),    o = new Date('06/21/2023 00:00:00'),    n = (now - o) / 1e3 / 60 / 60 / 24,    r = Math.floor(n),    i = (now - o) / 1e3 / 60 / 60 - 24 * r,    s = Math.floor(i)  1 == String(s).length && (s = '0' + s)  var d = (now - o) / 1e3 / 60 - 1440 * r - 60 * s,    l = Math.floor(d)  1 == String(l).length && (l = '0' + l)  var g = (now - o) / 1e3 - 86400 * r - 3600 * s - 60 * l,    b = Math.round(g)  1 == String(b).length && (b = '0' + b)  let c = ''    ; (c =      s < 18 && s >= 9        ? `<div style="font-size:13px;font-weight:bold">本站运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i>  <br> 一看你就在摸鱼😂😂😂</div>`        : `<div style="font-size:13px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 半夜不睡觉？还在偷偷卷？🤣</div>`),      document.getElementById('workboard') &&      (document.getElementById('workboard').innerHTML = c)}setInterval(() => {  createtime()}, 1e3)]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>link</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
+      
+        <content type="html"><![CDATA[#footer {  background: transparent !important;}#page-header {  background: transparent !important;}/* 白天模式遮罩透明 */#footer::before {  background: transparent !important;}#page-header::before {  background: transparent !important;}/* 夜间模式遮罩透明 */[data-theme='dark'] #footer::before {  background: transparent !important;}[data-theme='dark'] #page-header::before {  background: transparent !important;}]]></content>
       
     </entry>
     
