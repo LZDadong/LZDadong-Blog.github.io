@@ -185,7 +185,7 @@
     #bdbdf0,
     #eec1ea
   );
-  box-shadow: 0 0 5px rgb(66, 68, 68);
+  box-shadow: 0 0 5px rgb(227, 234, 224);
   position: relative;
   background-size: 400% 400%;
   -webkit-animation: Gradient 10s ease infinite;
@@ -207,9 +207,6 @@
   -webkit-animation: Gradient 10s ease infinite;
   -moz-animation: Gradient 10s ease infinite;
   animation: Gradient 10s ease infinite !important;
-}
-#recent-posts > .recent-post-item {
-  background: #0af3ff;
 }
 @-webkit-keyframes Gradient1 {
   0% {
@@ -259,4 +256,14 @@
 #pagination {
   width: 100%;
   margin: auto;
+}
+
+/* 欢迎信息 */
+#welcome-info {
+  background: linear-gradient(45deg, #b9f4f3, #e3fbf9);
+  border-radius: 18px;
+  padding: 8px;
+}
+[data-theme='dark'] #welcome-info {
+  background: #212121;
 }
