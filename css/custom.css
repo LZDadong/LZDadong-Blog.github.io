@@ -267,3 +267,6 @@
 [data-theme='dark'] #welcome-info {
   background: #212121;
 }
+.layout > div:first-child:not(.recent-posts) {
+  padding: 50px 20px;
+}
