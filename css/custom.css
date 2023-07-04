@@ -288,9 +288,9 @@
 }
 
 /* 小窝背景颜色 */
-.layout > div:first-child:not(.recent-posts) {
-  background: #daf7fe;
-}
+/* .layout > div:first-child:not(.recent-posts) {
+  background: #e3fbf9;
+} */
 
 /* 评论样式 */
 #container .wf-form .wf-content-wrapper,
@@ -319,4 +319,9 @@
 }
 #post-comment .comment-head .comment-headline {
   color: #0f86af;
+}
+
+/* 导航栏下拉的样式 */
+#nav .menus_items .menus_item .menus_item_child {
+  background: #28857b;
 }
