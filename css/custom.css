@@ -325,3 +325,8 @@
 #nav .menus_items .menus_item .menus_item_child {
   background: #28857b;
 }
+
+/* 下载的文字颜色 */
+#article-container a {
+  color: #ff4c10;
+}
