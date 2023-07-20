@@ -5,8 +5,8 @@
     
     <entry>
       <title>Linux系统：虚拟机VMware、centOS_7、fianlshell以及Nginx的使用(七)</title>
-      <link href="/2023/07/20/finalshell%E8%BF%9E%E6%8E%A5%E4%B8%8D%E4%B8%8A%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
-      <url>/2023/07/20/finalshell%E8%BF%9E%E6%8E%A5%E4%B8%8D%E4%B8%8A%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+      <link href="/2023/07/20/finalshell%E8%BF%9E%E6%8E%A5%E4%B8%8D%E4%B8%8A%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95-%E4%B8%83/"/>
+      <url>/2023/07/20/finalshell%E8%BF%9E%E6%8E%A5%E4%B8%8D%E4%B8%8A%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95-%E4%B8%83/</url>
       
         <content type="html"><![CDATA[<h2 id="finalshell连接不上虚拟机的解决方法"><a href="#finalshell连接不上虚拟机的解决方法" class="headerlink" title="finalshell连接不上虚拟机的解决方法"></a>finalshell连接不上虚拟机的解决方法</h2>]]></content>
       
@@ -22,7 +22,7 @@
             
             <tag> Linux </tag>
             
-            <tag> 链接模式 </tag>
+            <tag> 三种链接模式 </tag>
             
         </tags>
       
@@ -32,8 +32,8 @@
     
     <entry>
       <title>Linux系统：虚拟机VMware、centOS_7、fianlshell以及Nginx的使用(六)</title>
-      <link href="/2023/07/20/%E5%85%B6%E4%BB%96%E7%94%B5%E8%84%91%E9%93%BE%E6%8E%A5%E8%AE%BF%E9%97%AE%E8%87%AA%E5%B7%B1%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
-      <url>/2023/07/20/%E5%85%B6%E4%BB%96%E7%94%B5%E8%84%91%E9%93%BE%E6%8E%A5%E8%AE%BF%E9%97%AE%E8%87%AA%E5%B7%B1%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA/</url>
+      <link href="/2023/07/20/%E5%85%B6%E4%BB%96%E7%94%B5%E8%84%91%E9%93%BE%E6%8E%A5%E8%AE%BF%E9%97%AE%E8%87%AA%E5%B7%B1%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA-%E5%85%AD/"/>
+      <url>/2023/07/20/%E5%85%B6%E4%BB%96%E7%94%B5%E8%84%91%E9%93%BE%E6%8E%A5%E8%AE%BF%E9%97%AE%E8%87%AA%E5%B7%B1%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA-%E5%85%AD/</url>
       
         <content type="html"><![CDATA[<h2 id="其他电脑链接访问自己电脑上的虚拟机-桥接模式"><a href="#其他电脑链接访问自己电脑上的虚拟机-桥接模式" class="headerlink" title="其他电脑链接访问自己电脑上的虚拟机(桥接模式)"></a>其他电脑链接访问自己电脑上的虚拟机(桥接模式)</h2><p>  1、虚拟机的三种模式：<br>    ①xxx②xxx③xxx<br>    详细了解请阅读：<br>    今天为大家将的是桥接模式。</p>]]></content>
       
@@ -59,8 +59,8 @@
     
     <entry>
       <title>Linux系统：虚拟机VMware、centOS_7、fianlshell以及Nginx的使用(五)</title>
-      <link href="/2023/07/20/%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%8A%E5%AE%89%E8%A3%85Nginx/"/>
-      <url>/2023/07/20/%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%8A%E5%AE%89%E8%A3%85Nginx/</url>
+      <link href="/2023/07/20/%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%8A%E5%AE%89%E8%A3%85Nginx-%E4%BA%94/"/>
+      <url>/2023/07/20/%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%8A%E5%AE%89%E8%A3%85Nginx-%E4%BA%94/</url>
       
         <content type="html"><![CDATA[<h2 id="在虚拟机上安装Nginx"><a href="#在虚拟机上安装Nginx" class="headerlink" title="在虚拟机上安装Nginx"></a>在虚拟机上安装Nginx</h2>]]></content>
       
@@ -85,11 +85,11 @@
     
     
     <entry>
-      <title>Linux系统：虚拟机VMware、centOS_7和fianlshell的使用(四)</title>
-      <link href="/2023/07/20/finalshell%E4%B8%8E%E8%99%9A%E6%8B%9F%E6%9C%BAcentOS-7%E7%9A%84%E9%93%BE%E6%8E%A5%E5%8F%8A%E4%BD%BF%E7%94%A8/"/>
-      <url>/2023/07/20/finalshell%E4%B8%8E%E8%99%9A%E6%8B%9F%E6%9C%BAcentOS-7%E7%9A%84%E9%93%BE%E6%8E%A5%E5%8F%8A%E4%BD%BF%E7%94%A8/</url>
+      <title>Linux系统：虚拟机VMware、centOS_7、fianlshell以及Nginx的使用(四)</title>
+      <link href="/2023/07/20/finalshell%E4%B8%8E%E8%99%9A%E6%8B%9F%E6%9C%BAcentOS-7%E7%9A%84%E9%93%BE%E6%8E%A5%E5%8F%8A%E4%BD%BF%E7%94%A8-%E5%9B%9B/"/>
+      <url>/2023/07/20/finalshell%E4%B8%8E%E8%99%9A%E6%8B%9F%E6%9C%BAcentOS-7%E7%9A%84%E9%93%BE%E6%8E%A5%E5%8F%8A%E4%BD%BF%E7%94%A8-%E5%9B%9B/</url>
       
-        <content type="html"><![CDATA[<h2 id="finalshell与虚拟机centOS-7的链接及使用"><a href="#finalshell与虚拟机centOS-7的链接及使用" class="headerlink" title="finalshell与虚拟机centOS_7的链接及使用"></a>finalshell与虚拟机centOS_7的链接及使用</h2><p>  1、finalshell下载地址：<a href="http://www.hostbuf.com/，然后安装即可。">http://www.hostbuf.com/，然后安装即可。</a><br>  2、将安装好的finalshell打开，安装以下步骤进行建立链接，访问本地虚拟机<br>  <img src="https://img1.imgtp.com/2023/07/20/OoRx3ABE.png" alt="Workstation 17 Pro for Windows"><br>  这里的主机要写成 虚拟机的 IP <span style="color:red">（虚拟机IP地址查询：ip addr）</span>名称与主机保持一致，用户名：root，密码：123456，然后点击确定，然后双击主机名，点击保存并接受<br>  <img src="https://img1.imgtp.com/2023/07/20/yCT8hCQs.png" alt="Workstation 17 Pro for Windows"><br>  <img src="https://img1.imgtp.com/2023/07/20/WqKLSLHL.png" alt="Workstation 17 Pro for Windows"><br>  3、然后链接成功<br>  <img src="https://img1.imgtp.com/2023/07/20/YHGB028y.png" alt="Workstation 17 Pro for Windows"><br>  5、关于finalshell链接不上虚拟机的解决方法<br>  6、若想让其他电脑链接你电脑上的虚拟机，请参考这篇文章：</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="finalshell与虚拟机centOS-7的链接及使用"><a href="#finalshell与虚拟机centOS-7的链接及使用" class="headerlink" title="finalshell与虚拟机centOS_7的链接及使用"></a>finalshell与虚拟机centOS_7的链接及使用</h2><p>  1、finalshell下载地址：<a href="http://www.hostbuf.com/，然后安装即可。">http://www.hostbuf.com/，然后安装即可。</a><br>  2、将安装好的finalshell打开，安装以下步骤进行建立链接，访问本地虚拟机<br>  <img src="https://img1.imgtp.com/2023/07/20/OoRx3ABE.png" alt="Workstation 17 Pro for Windows"><br>  这里的主机要写成 虚拟机的 IP <span style="color:red">（虚拟机IP地址查询：ip addr）</span>名称与主机保持一致，用户名：root，密码：123456，然后点击确定，然后双击主机名，点击保存并接受<br>  <img src="https://img1.imgtp.com/2023/07/20/yCT8hCQs.png" alt="Workstation 17 Pro for Windows"><br>  <img src="https://img1.imgtp.com/2023/07/20/WqKLSLHL.png" alt="Workstation 17 Pro for Windows"><br>  3、然后链接成功<br>  <img src="https://img1.imgtp.com/2023/07/20/YHGB028y.png" alt="Workstation 17 Pro for Windows"></p><p>  5、若想学习虚拟机如何安装Nginx，请查阅这篇文章：<a href="https://www.dadong.fun/2023/07/20/%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%8A%E5%AE%89%E8%A3%85Nginx/">虚拟机上安装Nginx</a></p><p>  6、<span style="color:red">建议将第五步做完后再进行这一项。</span> 若想让其他电脑链接你电脑上的虚拟机，请参考这篇文章：<a href="https://www.dadong.fun/2023/07/20/%E5%85%B6%E4%BB%96%E7%94%B5%E8%84%91%E9%93%BE%E6%8E%A5%E8%AE%BF%E9%97%AE%E8%87%AA%E5%B7%B1%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA/">其他电脑访问自己电脑的虚拟机并用finalshell进行链接</a></p><p>  7、关于finalshell链接不上虚拟机的解决方法：<a href="https://www.dadong.fun/2023/07/20/finalshell%E8%BF%9E%E6%8E%A5%E4%B8%8D%E4%B8%8A%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/">其他电脑访问自己电脑的虚拟机并用finalshell进行链接</a></p>]]></content>
       
       
       <categories>
@@ -112,9 +112,9 @@
     
     
     <entry>
-      <title>Linux系统：虚拟机VMware、centOS_7和fianlshell的使用(三)</title>
-      <link href="/2023/07/20/%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%8A%E5%AE%89%E8%A3%85centOS-7-64%E4%BD%8DLinux%E5%8F%91%E8%A1%8C%E7%89%88%E6%9C%AC/"/>
-      <url>/2023/07/20/%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%8A%E5%AE%89%E8%A3%85centOS-7-64%E4%BD%8DLinux%E5%8F%91%E8%A1%8C%E7%89%88%E6%9C%AC/</url>
+      <title>Linux系统：虚拟机VMware、centOS_7、fianlshell以及Nginx的使用(三)</title>
+      <link href="/2023/07/20/%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%8A%E5%AE%89%E8%A3%85centOS-7-64%E4%BD%8DLinux%E5%8F%91%E8%A1%8C%E7%89%88%E6%9C%AC-%E4%B8%89/"/>
+      <url>/2023/07/20/%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%8A%E5%AE%89%E8%A3%85centOS-7-64%E4%BD%8DLinux%E5%8F%91%E8%A1%8C%E7%89%88%E6%9C%AC-%E4%B8%89/</url>
       
         <content type="html"><![CDATA[<h2 id="centOS-7在VMware上的安装及配置"><a href="#centOS-7在VMware上的安装及配置" class="headerlink" title="centOS_7在VMware上的安装及配置"></a>centOS_7在VMware上的安装及配置</h2><p>  1、centOS_7_64位下载地址：<a href="https://archive.kernel.org/centos-vault/centos/7.8.2003/isos/x86_64/">https://archive.kernel.org/centos-vault/centos/7.8.2003/isos/x86_64/</a><br>  2、下载后放到自己新建的文件内，然后打开虚拟机，新建虚拟机<br>  <img src="https://img1.imgtp.com/2023/07/20/ghUCuX9r.png" alt="Workstation 17 Pro for Windows"><br>  3、然后选择经典<br>  <img src="https://img1.imgtp.com/2023/07/20/CqrkMLxH.png" alt="Workstation 17 Pro for Windows"><br>  4、然后选择安装程序光盘映像文件(iso)<br>  <img src="https://img1.imgtp.com/2023/07/20/X5FHatFB.png" alt="Workstation 17 Pro for Windows"><br>  5、然后设置用户名和密码（建议设置 用户名：root，密码：123456）<br>  <img src="https://img1.imgtp.com/2023/07/20/lCdkSqDR.png" alt="Workstation 17 Pro for Windows"><br>  6、设置完毕后点击下一步，设置虚拟机名称和选择存放的位置（建议位置不要放在系统盘）<br>  <img src="https://img1.imgtp.com/2023/07/20/gtKioBuL.png" alt="Workstation 17 Pro for Windows"><br>  7、然后最大磁盘默认即可：20GB,这里的占用20GB磁盘是虚拟的，是当使用虚拟机时占用本地磁盘的20GB,关闭虚拟机便不再占用；选择拆分成多个文件(M)<br>  <img src="https://img1.imgtp.com/2023/07/20/hrIb0JvH.png" alt="Workstation 17 Pro for Windows"><br>  8、然后虚拟机就安装完毕，弹出虚拟机向导，告知用户安装虚拟机的详细信息<br>  <img src="https://img1.imgtp.com/2023/07/20/HudWYWDC.png" alt="Workstation 17 Pro for Windows"><br>  9、然后虚拟机左侧会展示出你安装的虚拟机，同时开启此虚拟机<br>  <img src="https://img1.imgtp.com/2023/07/20/vDkbFJ2N.png" alt="Workstation 17 Pro for Windows"><br>  10、等待一会儿，看到这个页面代表启动成功一半了，下面进行简单的配置即可成功开启。这里选择：，点击继续。<br>  <img src="https://img1.imgtp.com/2023/07/20/hhuNgOIV.png" alt="Workstation 17 Pro for Windows"><br>  11、选择 <span style="color:red">软件选择</span> → 选择 最小安装，点击继续。<br>  <img src="https://img1.imgtp.com/2023/07/20/l24Ixkml.png" alt="Workstation 17 Pro for Windows"><br>  <img src="https://img1.imgtp.com/2023/07/20/DXYmgIpR.png" alt="Workstation 17 Pro for Windows"><br>  12、选择 <span style="color:red">安装位置</span> 点击继续。<span style="color:red">(可能存在一些问题：那就安装提示clear或者remove清理一下磁盘即可)</span><br>  <img src="https://img1.imgtp.com/2023/07/20/y8MIfFmb.png" alt="Workstation 17 Pro for Windows"><br>  <img src="https://img1.imgtp.com/2023/07/20/0avdXqQI.png" alt="Workstation 17 Pro for Windows"><br>  13、选择 <span style="color:red">网络和主机名</span> 打开网络链接，主机名可以自己更改，点击继续。<span style="color:red">(这里建议把IP地址截图记住！)</span><br>  <img src="https://img1.imgtp.com/2023/07/20/7wbnkiEa.png" alt="Workstation 17 Pro for Windows"><br>  <img src="https://img1.imgtp.com/2023/07/20/9zt9QonO.png" alt="Workstation 17 Pro for Windows"><br>  14、然后点击开始安装，这里需要等待一会儿。<br>  <img src="https://img1.imgtp.com/2023/07/20/ypvqTD3G.png" alt="Workstation 17 Pro for Windows"><br>  15、然后点击重启，等待一会儿，提示输入用户名 login 和 password，这里输入你设置的用户名和密码（输入密码时看不见的）,显示与下图一致就登录成功了。<br>  <img src="https://img1.imgtp.com/2023/07/20/Ewk728qD.png" alt="Workstation 17 Pro for Windows"><br>  <!-- ![Workstation 17 Pro for Windows](https://img1.imgtp.com/2023/07/20/hFMi4QVo.png) --><br>  16、然后在虚拟机左侧进行虚拟机的备份backUp。选择创建完整克隆、设置名称、更改存放位置(强烈建议与原centOS7的文件位置并列)，然后虚拟机左侧会展示出你克隆好的虚拟机。<br>  <img src="https://img1.imgtp.com/2023/07/20/UlonA6iN.png" alt="备份虚拟机"><br>  <img src="https://img1.imgtp.com/2023/07/20/hFMi4QVo.png" alt="选择创建完整克隆"></p>]]></content>
       
@@ -168,9 +168,9 @@
     
     
     <entry>
-      <title>Linux系统：虚拟机VMware、centOS_7和fianlshell的使用(二)</title>
-      <link href="/2023/07/20/VMware%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE/"/>
-      <url>/2023/07/20/VMware%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE/</url>
+      <title>Linux系统：虚拟机VMware、centOS_7、fianlshell以及Nginx的使用(二)</title>
+      <link href="/2023/07/20/VMware%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE-%E4%BA%8C/"/>
+      <url>/2023/07/20/VMware%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE-%E4%BA%8C/</url>
       
         <content type="html"><![CDATA[<h2 id="VMware虚拟机的安装及配置"><a href="#VMware虚拟机的安装及配置" class="headerlink" title="VMware虚拟机的安装及配置"></a>VMware虚拟机的安装及配置</h2><p>  1、VMware下载地址： <a href="https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html">https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html</a><br>  <img src="https://img1.imgtp.com/2023/07/20/jn8XvQki.png" alt="Workstation 17 Pro for Windows"><br>  2、双击安装包、点击下一步<br>  <img src="https://img1.imgtp.com/2023/07/20/eVR56wqt.png" alt="Workstation 17 Pro for Windows"><br>  3、然后更改安装位置，选择 第二项 ,然后点击下一步，显示安装完成<br>  <img src="https://img1.imgtp.com/2023/07/20/5BNd8zyc.png" alt="Workstation 17 Pro for Windows"><br>  4、然后打开虚拟机<br>  <img src="https://img1.imgtp.com/2023/07/20/acqa4fml.png" alt="Workstation 17 Pro for Windows"></p>]]></content>
       
@@ -195,11 +195,11 @@
     
     
     <entry>
-      <title>Linux系统：虚拟机VMware和fianlshell的链接及使用(一)</title>
-      <link href="/2023/07/17/%E8%99%9A%E6%8B%9F%E6%9C%BAVMware%E5%92%8Cfianlshell%E7%9A%84%E9%93%BE%E6%8E%A5%E5%8F%8A%E4%BD%BF%E7%94%A8/"/>
-      <url>/2023/07/17/%E8%99%9A%E6%8B%9F%E6%9C%BAVMware%E5%92%8Cfianlshell%E7%9A%84%E9%93%BE%E6%8E%A5%E5%8F%8A%E4%BD%BF%E7%94%A8/</url>
+      <title>Linux系统：虚拟机VMware、centOS_7、fianlshell以及Nginx的使用(一)</title>
+      <link href="/2023/07/17/%E8%99%9A%E6%8B%9F%E6%9C%BAVMware%E5%92%8Cfianlshell%E7%9A%84%E9%93%BE%E6%8E%A5%E5%8F%8A%E4%BD%BF%E7%94%A8-%E4%B8%80/"/>
+      <url>/2023/07/17/%E8%99%9A%E6%8B%9F%E6%9C%BAVMware%E5%92%8Cfianlshell%E7%9A%84%E9%93%BE%E6%8E%A5%E5%8F%8A%E4%BD%BF%E7%94%A8-%E4%B8%80/</url>
       
-        <content type="html"><![CDATA[<h2 id="Linux系统、虚拟机VMware、centOS-7、fianlshell的使用-一"><a href="#Linux系统、虚拟机VMware、centOS-7、fianlshell的使用-一" class="headerlink" title="Linux系统、虚拟机VMware、centOS_7、fianlshell的使用(一)"></a>Linux系统、虚拟机VMware、centOS_7、fianlshell的使用(一)</h2><h4 id="1、Linux系统"><a href="#1、Linux系统" class="headerlink" title="1、Linux系统"></a>1、Linux系统</h4>  <p style="color:#000;margin-left:13px">概念：Linux是一种开源操作系统，Linux系统广泛应用于个人计算机，服务器，手机等设备上。具有稳定性高，安全性好，可靠性高等特点。</p><h4 id="2、虚拟机VMware"><a href="#2、虚拟机VMware" class="headerlink" title="2、虚拟机VMware"></a>2、虚拟机VMware</h4>  <p style="color:#000;margin-left:13px">概念：VMware Workstation是一款虚拟机软件，允许用户将Linux、Windows等多个操作系统作为虚拟机在单台PC上运行;  用户可以在虚拟机上重现服务器、桌面和平板电脑环境，无需重新启动即可跨不同操作系统同时运行应用。</p><h4 id="3、centOS-7-64位"><a href="#3、centOS-7-64位" class="headerlink" title="3、centOS_7 64位"></a>3、centOS_7 64位</h4>  <p style="color:#000;margin-left:13px">概念：centOS基于Red Hat Linux 提供可自由使用源代码的企业级Linux发行版本。CentOS_7 是17年8月份出来的,并且CentOS是可以免费使用的</p><h4 id="4、fianlshell"><a href="#4、fianlshell" class="headerlink" title="4、fianlshell"></a>4、fianlshell</h4>  <p style="color:#000;margin-left:13px">概念：FinalShel是一款功能强大的SSH客户端软件，它支持多种协议和加密方式，可以实现远程连接、文件传输、端口转发等功能。同时FinalShell还提供了丰富的插件和脚本支持，可以方便地扩展其功能。</p><h4 id="5、下载地址"><a href="#5、下载地址" class="headerlink" title="5、下载地址"></a>5、下载地址</h4><p>  <span style="margin-left:20px">CentOS_7系列</span> <a href="https://archive.kernel.org/centos-vault/centos/7.8.2003/isos/x86_64/">下载地址</a><br>  <span style="margin-left:20px">fianlshell</span> <a href="http://www.hostbuf.com/">下载地址</a><br>  <span style="margin-left:20px">虚拟机VMware(选择：Workstation 17 Pro for Windows )</span> <a href="https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html">下载地址</a> <br /></p><h4 id="6、安装操作"><a href="#6、安装操作" class="headerlink" title="6、安装操作"></a>6、安装操作</h4><p> <a href="http://localhost:4000/2023/07/20/VMware%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE/">查看安装和配置教程</a> 或者查阅 <span style="color:pink">虚拟机VMware、centOS_7和fianlshell的使用(二)之VMware虚拟机的安装及配置</span></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="Linux系统、虚拟机VMware、centOS-7、fianlshell的使用-一"><a href="#Linux系统、虚拟机VMware、centOS-7、fianlshell的使用-一" class="headerlink" title="Linux系统、虚拟机VMware、centOS_7、fianlshell的使用(一)"></a>Linux系统、虚拟机VMware、centOS_7、fianlshell的使用(一)</h2><h4 id="1、Linux系统"><a href="#1、Linux系统" class="headerlink" title="1、Linux系统"></a>1、Linux系统</h4>  <p style="margin-left:13px">概念：Linux是一种开源操作系统，Linux系统广泛应用于个人计算机，服务器，手机等设备上。具有稳定性高，安全性好，可靠性高等特点。</p><h4 id="2、虚拟机VMware"><a href="#2、虚拟机VMware" class="headerlink" title="2、虚拟机VMware"></a>2、虚拟机VMware</h4>  <p style="margin-left:13px">概念：VMware Workstation是一款虚拟机软件，允许用户将Linux、Windows等多个操作系统作为虚拟机在单台PC上运行;  用户可以在虚拟机上重现服务器、桌面和平板电脑环境，无需重新启动即可跨不同操作系统同时运行应用。</p><h4 id="3、centOS-7-64位"><a href="#3、centOS-7-64位" class="headerlink" title="3、centOS_7 64位"></a>3、centOS_7 64位</h4>  <p style="margin-left:13px">概念：centOS基于Red Hat Linux 提供可自由使用源代码的企业级Linux发行版本。CentOS_7 是17年8月份出来的,并且CentOS是可以免费使用的</p><h4 id="4、fianlshell"><a href="#4、fianlshell" class="headerlink" title="4、fianlshell"></a>4、fianlshell</h4>  <p style="margin-left:13px">概念：FinalShel是一款功能强大的SSH客户端软件，它支持多种协议和加密方式，可以实现远程连接、文件传输、端口转发等功能。同时FinalShell还提供了丰富的插件和脚本支持，可以方便地扩展其功能。</p><h4 id="5、下载地址"><a href="#5、下载地址" class="headerlink" title="5、下载地址"></a>5、下载地址</h4><p>  <span style="margin-left:20px">CentOS_7系列</span> <a href="https://archive.kernel.org/centos-vault/centos/7.8.2003/isos/x86_64/">下载地址</a><br>  <span style="margin-left:20px">fianlshell</span> <a href="http://www.hostbuf.com/">下载地址</a><br>  <span style="margin-left:20px">虚拟机VMware(选择：Workstation 17 Pro for Windows )</span> <a href="https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html">下载地址</a> <br /></p><h4 id="6、安装操作"><a href="#6、安装操作" class="headerlink" title="6、安装操作"></a>6、安装操作</h4><p> <a href="https://www.dadong.fun/2023/07/20/VMware%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE/">查看安装和配置教程</a> 或者查阅 <span style="color:pink">虚拟机VMware、centOS_7和fianlshell的使用(二)之VMware虚拟机的安装及配置</span></p>]]></content>
       
       
       <categories>
@@ -618,22 +618,22 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[#footer {  background: transparent !important;}#page-header {  background: transparent !important;}/* 白天模式遮罩透明 */#footer::before {  background: transparent !important;}#page-header::before {  background: transparent !important;}/* 夜间模式遮罩透明 */[data-theme='dark'] #footer::before {  background: transparent !important;}[data-theme='dark'] #page-header::before {  background: transparent !important;}/* 小冰分类分类磁铁黑夜模式适配 *//* 一般状态 */[data-theme='dark'] .magnet_link_context {  background: #1e1e1e;  color: antiquewhite;}/* 鼠标悬浮状态 */[data-theme='dark'] .magnet_link_context:hover {  background: #3ecdf1;  color: #f2f2f2;}/* 侧边栏个人信息卡片动态渐变色 */#aside-content > .card-widget.card-info {  background: linear-gradient(    -45deg,    #e8d8b9,    #eccec5,    #a3e9eb,    #bdbdf0,    #eec1ea  );  box-shadow: 2px 2px 5px rgb(66, 68, 68);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;}@-webkit-keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@-moz-keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}/* 黑夜模式适配 */[data-theme='dark'] #aside-content > .card-widget.card-info {  background: #191919ee;}/* 个人信息Follow me按钮 */#aside-content > .card-widget.card-info > #card-info-btn {  background-color: #3eb8be;  border-radius: 8px;}/* 公告 */#aside-content > .card-widget.card-announcement {  background: linear-gradient(    -45deg,    #e8d8b9,    #eccec5,    #a3e9eb,    #bdbdf0,    #eec1ea  );  box-shadow: 0 0 5px rgb(66, 68, 68);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;}#aside-content > .sticky_layout > .card-widget.card-categories {  background: linear-gradient(    -45deg,    #e8d8b9,    #eccec5,    #a3e9eb,    #bdbdf0,    #eec1ea  );  box-shadow: 0 0 5px rgb(66, 68, 68);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;}#aside-content > .sticky_layout > .card-widget.card-recent-post {  background: linear-gradient(    -45deg,    #e8d8b9,    #eccec5,    #a3e9eb,    #bdbdf0,    #eec1ea  );  box-shadow: 0 0 5px rgb(66, 68, 68);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;}#aside-content > .sticky_layout > .card-widget.card-webinfo {  background: linear-gradient(    -45deg,    #e8d8b9,    #eccec5,    #a3e9eb,    #bdbdf0,    #eec1ea  );  box-shadow: 0 0 5px rgb(66, 68, 68);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;}#aside-content > .sticky_layout > .card-widget.card-clock {  background: linear-gradient(    -45deg,    #e8d8b9,    #eccec5,    #a3e9eb,    #bdbdf0,    #eec1ea  );  box-shadow: 0 0 5px rgb(66, 68, 68);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;}#aside-content > .sticky_layout > .card-widget.card-tags {  background: linear-gradient(    -45deg,    #e8d8b9,    #eccec5,    #a3e9eb,    #bdbdf0,    #eec1ea  );  box-shadow: 0 0 5px rgb(227, 234, 224);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;}#aside-content > .sticky_layout > #card-toc {  background: linear-gradient(    -45deg,    #e8d8b9,    #eccec5,    #a3e9eb,    #bdbdf0,    #eec1ea  );  box-shadow: 0 0 5px rgb(66, 68, 68);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;}@-webkit-keyframes Gradient1 {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@-moz-keyframes Gradient1 {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@keyframes Gradient1 {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}#article-container pre,#article-container figure.highlight {  background: #000;}.line {  color: #fff !important;}.line::before {  color: #fff !important;}/* 翻页按钮居中 */#pagination {  width: 100%;  margin: auto;}/* 欢迎信息 */#welcome-info {  background: linear-gradient(45deg, #b9f4f3, #e3fbf9);  border-radius: 18px;  padding: 8px;}[data-theme='dark'] #welcome-info {  background: #212121;}.layout > div:first-child:not(.recent-posts) {  padding: 50px 20px;}/* 加密文章的样式 */.hbe-input-label-default::before,.hbe-input-label-default::after,.hbe-input-label-content-default,.hbe-input-field-default:focus,.hbe-input--filled .hbe-input-field-default {  color: #ff6d87;}.hbe-input-label-content-default {  color: #ff6d87 !important;}.hbe-input-label-default::before,.hbe-input-label-default::after {  background: #f99dae !important;}/* 小窝背景颜色 *//* .layout > div:first-child:not(.recent-posts) {  background: #e3fbf9;} *//* 评论样式 */#container .wf-form .wf-content-wrapper,#container .popup-quotation .quotation-wf .quotation-text .wf-content-wrapper {  background: #3bddc7;}#container .wf-function-wrapper,#container .popup-quotation .quotation-wf-group {  background: #47d7c3;}/* 导航栏文字样式 */#page-header.nav-fixed #nav a,#page-header.nav-fixed #nav #toggle-menu {  color: #ebebeb;}/* 头部导航栏背景颜色 */#page-header.nav-visible:not(.fixed) #nav {  background: rgba(0, 0, 0, 0.3);}/* 头部导航栏下拉框样式 */#nav .menus_items .menus_item .menus_item_child {  background: #a6fff1;}#post-comment .comment-head .comment-headline {  color: #0f86af;}/* 导航栏下拉的样式 */#nav .menus_items .menus_item .menus_item_child {  background: #28857b;}/* 下载的文字颜色 */#article-container a {  color: #ff4c10;}]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[#footer {  background: transparent !important;}#page-header {  background: transparent !important;}/* 白天模式遮罩透明 */#footer::before {  background: transparent !important;}#page-header::before {  background: transparent !important;}/* 夜间模式遮罩透明 */[data-theme='dark'] #footer::before {  background: transparent !important;}[data-theme='dark'] #page-header::before {  background: transparent !important;}/* 小冰分类分类磁铁黑夜模式适配 *//* 一般状态 */[data-theme='dark'] .magnet_link_context {  background: #1e1e1e;  color: antiquewhite;}/* 鼠标悬浮状态 */[data-theme='dark'] .magnet_link_context:hover {  background: #3ecdf1;  color: #f2f2f2;}/* 侧边栏个人信息卡片动态渐变色 */#aside-content > .card-widget.card-info {  background: linear-gradient(    -45deg,    #e8d8b9,    #eccec5,    #a3e9eb,    #bdbdf0,    #eec1ea  );  box-shadow: 2px 2px 5px rgb(66, 68, 68);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;}@-webkit-keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@-moz-keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}/* 黑夜模式适配 */[data-theme='dark'] #aside-content > .card-widget.card-info {  background: #191919ee;}/* 个人信息Follow me按钮 */#aside-content > .card-widget.card-info > #card-info-btn {  background-color: #3eb8be;  border-radius: 8px;}/* 公告 */#aside-content > .card-widget.card-announcement {  background: linear-gradient(    -45deg,    #e8d8b9,    #eccec5,    #a3e9eb,    #bdbdf0,    #eec1ea  );  box-shadow: 0 0 5px rgb(66, 68, 68);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;}#aside-content > .sticky_layout > .card-widget.card-categories {  background: linear-gradient(    -45deg,    #e8d8b9,    #eccec5,    #a3e9eb,    #bdbdf0,    #eec1ea  );  box-shadow: 0 0 5px rgb(66, 68, 68);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;}#aside-content > .sticky_layout > .card-widget.card-recent-post {  background: linear-gradient(    -45deg,    #e8d8b9,    #eccec5,    #a3e9eb,    #bdbdf0,    #eec1ea  );  box-shadow: 0 0 5px rgb(66, 68, 68);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;}#aside-content > .sticky_layout > .card-widget.card-webinfo {  background: linear-gradient(    -45deg,    #e8d8b9,    #eccec5,    #a3e9eb,    #bdbdf0,    #eec1ea  );  box-shadow: 0 0 5px rgb(66, 68, 68);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;}#aside-content > .sticky_layout > .card-widget.card-clock {  background: linear-gradient(    -45deg,    #e8d8b9,    #eccec5,    #a3e9eb,    #bdbdf0,    #eec1ea  );  box-shadow: 0 0 5px rgb(66, 68, 68);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;}#aside-content > .sticky_layout > .card-widget.card-tags {  background: linear-gradient(    -45deg,    #e8d8b9,    #eccec5,    #a3e9eb,    #bdbdf0,    #eec1ea  );  box-shadow: 0 0 5px rgb(227, 234, 224);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;}#aside-content > .sticky_layout > #card-toc {  background: linear-gradient(    -45deg,    #e8d8b9,    #eccec5,    #a3e9eb,    #bdbdf0,    #eec1ea  );  box-shadow: 0 0 5px rgb(66, 68, 68);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;}@-webkit-keyframes Gradient1 {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@-moz-keyframes Gradient1 {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@keyframes Gradient1 {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}#article-container pre,#article-container figure.highlight {  background: #000;}.line {  color: #fff !important;}.line::before {  color: #fff !important;}/* 翻页按钮居中 */#pagination {  width: 100%;  margin: auto;}/* 欢迎信息 */#welcome-info {  background: linear-gradient(45deg, #b9f4f3, #e3fbf9);  border-radius: 18px;  padding: 8px;}[data-theme='dark'] #welcome-info {  background: #212121;}.layout > div:first-child:not(.recent-posts) {  padding: 50px 20px;}/* 加密文章的样式 */.hbe-input-label-default::before,.hbe-input-label-default::after,.hbe-input-label-content-default,.hbe-input-field-default:focus,.hbe-input--filled .hbe-input-field-default {  color: #ff6d87;}.hbe-input-label-content-default {  color: #ff6d87 !important;}.hbe-input-label-default::before,.hbe-input-label-default::after {  background: #f99dae !important;}/* 小窝背景颜色 *//* .layout > div:first-child:not(.recent-posts) {  background: #e3fbf9;} *//* 评论样式 */#container .wf-form .wf-content-wrapper,#container .popup-quotation .quotation-wf .quotation-text .wf-content-wrapper {  background: #3bddc7;}#container .wf-function-wrapper,#container .popup-quotation .quotation-wf-group {  background: #47d7c3;}/* 导航栏文字样式 */#page-header.nav-fixed #nav a,#page-header.nav-fixed #nav #toggle-menu {  color: #ebebeb;}/* 头部导航栏背景颜色 */#page-header.nav-visible:not(.fixed) #nav {  background: rgba(0, 0, 0, 0.3);}/* 头部导航栏下拉框样式 */#nav .menus_items .menus_item .menus_item_child {  background: #a6fff1;}#post-comment .comment-head .comment-headline {  color: #0f86af;}/* 导航栏下拉的样式 */#nav .menus_items .menus_item .menus_item_child {  background: #28857b;}/* 下载的文字颜色 */#article-container a {  color: #ff4c10;}]]></content>
       
     </entry>
     
@@ -652,17 +652,6 @@
     
     <entry>
       <title></title>
-      <link href="/js/runtime.js"/>
-      <url>/js/runtime.js</url>
-      
-        <content type="html"><![CDATA[var now = new Date()function createtime () {  now.setTime(now.getTime() + 1e3)  var e = new Date('06/21/2023 00:00:00'),    t = Math.trunc(234e8 + ((now - e) / 1e3) * 17),    a = (t / 1496e5).toFixed(6),    o = new Date('06/21/2023 00:00:00'),    n = (now - o) / 1e3 / 60 / 60 / 24,    r = Math.floor(n),    i = (now - o) / 1e3 / 60 / 60 - 24 * r,    s = Math.floor(i)  1 == String(s).length && (s = '0' + s)  var d = (now - o) / 1e3 / 60 - 1440 * r - 60 * s,    l = Math.floor(d)  1 == String(l).length && (l = '0' + l)  var g = (now - o) / 1e3 - 86400 * r - 3600 * s - 60 * l,    b = Math.round(g)  1 == String(b).length && (b = '0' + b)  let c = ''    ; (c =      s < 18 && s >= 9        ? `<div style="font-size:13px;font-weight:bold">本站运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i>  <br> 一看你就在摸鱼😂😂😂</div>`        : `<div style="font-size:13px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 半夜不睡觉？还在偷偷卷？🤣</div>`),      document.getElementById('workboard') &&      (document.getElementById('workboard').innerHTML = c)}setInterval(() => {  createtime()}, 1e3)]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/cursor.js"/>
       <url>/js/cursor.js</url>
       
@@ -673,20 +662,20 @@
     
     
     <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title></title>
+      <link href="/js/runtime.js"/>
+      <url>/js/runtime.js</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[var now = new Date()function createtime () {  now.setTime(now.getTime() + 1e3)  var e = new Date('06/21/2023 00:00:00'),    t = Math.trunc(234e8 + ((now - e) / 1e3) * 17),    a = (t / 1496e5).toFixed(6),    o = new Date('06/21/2023 00:00:00'),    n = (now - o) / 1e3 / 60 / 60 / 24,    r = Math.floor(n),    i = (now - o) / 1e3 / 60 / 60 - 24 * r,    s = Math.floor(i)  1 == String(s).length && (s = '0' + s)  var d = (now - o) / 1e3 / 60 - 1440 * r - 60 * s,    l = Math.floor(d)  1 == String(l).length && (l = '0' + l)  var g = (now - o) / 1e3 - 86400 * r - 3600 * s - 60 * l,    b = Math.round(g)  1 == String(b).length && (b = '0' + b)  let c = ''    ; (c =      s < 18 && s >= 9        ? `<div style="font-size:13px;font-weight:bold">本站运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i>  <br> 一看你就在摸鱼😂😂😂</div>`        : `<div style="font-size:13px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 半夜不睡觉？还在偷偷卷？🤣</div>`),      document.getElementById('workboard') &&      (document.getElementById('workboard').innerHTML = c)}setInterval(() => {  createtime()}, 1e3)]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -707,8 +696,19 @@
     
     <entry>
       <title></title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -718,8 +718,8 @@
     
     <entry>
       <title></title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
