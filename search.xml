@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Linux系统：虚拟机VMware、centOS_7、fianlshell以及Nginx的使用(五)</title>
+      <link href="/2023/07/23/%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%8A%E5%AE%89%E8%A3%85Nginx-%E4%BA%94/"/>
+      <url>/2023/07/23/%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%8A%E5%AE%89%E8%A3%85Nginx-%E4%BA%94/</url>
+      
+        <content type="html"><![CDATA[<h2 id="centOS-7-64位安装Nginx及Nginx配置"><a href="#centOS-7-64位安装Nginx及Nginx配置" class="headerlink" title="centOS_7_64位安装Nginx及Nginx配置"></a>centOS_7_64位安装Nginx及Nginx配置</h2><h3 id="一、centOS-7-64位安装Nginx"><a href="#一、centOS-7-64位安装Nginx" class="headerlink" title="一、centOS_7_64位安装Nginx"></a>一、centOS_7_64位安装Nginx</h3><p>  <strong>1、首先安装gcc插件</strong><br>    <i style="color:#658921">概念：gcc是Linux下的编译器，可以编译C,C++,JAVA等语言</i><br>    <span>首先查看linux上是否已经安装了gcc，使用命令：gcc -v，若没有安装则进行安装。</span><br>    <i style="color:red"> 安装命令：</i> <code>yum install gcc -y</code> </p><p>  <img src="https://img1.imgtp.com/2023/07/23/RwPrBuJv.png" alt="gcc安装成功或查看版本信息"></p><p>  <strong>2、然后安装 pcre、pcre-devel</strong><br>    <i style="color:#658921">概念：pcre是一个perl库，包括perl兼容的正则表达式库，Nginx的Rewrite模块和HTTP核心模块会使用到PCRE正则表达式语法。这里需要安装两个安装包pcre和pcre-devel。第一个安装包提供编译版本的库，而第二个提供开发阶段的头文件和编译项目的源代码。</i><br>    <i style="color:red">安装命令：</i><code>yum install pcre pcre-devel -y</code><br>    显示 Complete! 表示安装成功。</p><p>  <strong>3、然后安装zlib</strong><br>    <i style="color:#658921">概念：zlib库提供了开发人员的压缩算法，在Nginx的各种模块中需要使用gzip压缩。</i><br>    <i style="color:red">安装命令：</i><code>yum install zlib zlib-devel -y</code><br>    显示 Complete! 表示安装成功。</p><p>  <strong>4、安装Open SSL</strong><br>    <i style="color:#658921"> 概念： nginx不仅支持 http协议，还支持 https（即在 ssl 协议上传输 http），如果使用了 https，需要安装 OpenSSL 库。</i><br>    <i style="color:red">安装命令：</i><code>yum install openssl openssl-devel -y</code><br>    显示 Complete! 表示安装成功。</p><p>  <strong>5、安装Nginx</strong><br>  <span>①首先 <code>cd /usr/local</code> 文件下创建nginx文件夹 </span><br>  <i style="color:red">创建命令：</i><code>mkdir nginx</code><br>  <i style="color:red">查看文件命令：</i><code>ls</code><br>  <span>②然后 <code>cd nginx</code> 文件下下载 nginx 安装包 </span><br>  <i style="color:red">创建命令：</i><code>wget http://nginx.org/download/nginx-1.18.0.tar.gz</code> <span style="color:red">(注意：若没有安装 wget，首先安装：<code>yum -y install wge</code> 若安装失败则输入 su 回车，然后输入密码，然后再进行安装)</span><br>  <span>③然后在/usr/local/nginx 文件下解压 nginx 安装包 </span><br>  <i style="color:red">解压命令：</i><code>tar -zxvf nginx-1.18.0.tar.gz</code><br>  这里ls查看解压后的东西，有一个nginx-1.18.0.tar.gz压缩包和一个nginx-1.18.0文件夹<br>  然后进入到nginx-1.18.0文件夹内：<code>cd nginx-1.18.0</code><br>  然后 <code>./configure</code> (若报错，就是SSL模块没有安装导致的问题，解决方法：<code>./configure --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module</code>)<br>  然后进行<i style="color:red">编译：</i> <code>make</code><br>  然后进行<i style="color:red">安装：</i> <code>make install</code></p><h3 id="二、Nginx配置"><a href="#二、Nginx配置" class="headerlink" title="二、Nginx配置"></a>二、Nginx配置</h3><p>  <strong>1、更改 nginx.conf 文件(此文件在 /usr/local/nginx/conf 下)</strong><br>    首先 <code>cd ..</code> 即返回上一级,即返回到了 /usr/local/nginx <span style="color:red">(查看路径命令：<code>pwd</code>)</span><br>    然后 <code>cd conf</code> 进入到 conf 文件内<br>    然后进行编辑 <code>vim nginx.conf</code> <span style="color:red">(可编辑端口号、修改虚拟机server块中的配置(反向代理转发配置)，也可增加虚拟机server块，也可通过配置负载均衡(upstream,weight))</span><br>    更改完毕后按 ESC 键 wq! 强制保存退出 <code>wq!</code> </p><p>  <strong>2、配置完毕，重启Nginx</strong><br>    首先切换目录到  /usr/local/nginx/sbin 文件下<br>    <i style="color:red">操作命令：</i> <code>cd ..</code> 即返回上一级,即返回到了 /usr/local/nginx <span style="color:red">(查看路径命令：<code>pwd</code>)</span><br>    然后 <code>cd sbin</code> 进入到 sbin 文件内,即返回到了 /usr/local/nginx/sbin<br>    最后重启<br>    <i style="color:red">操作命令：</i> <code>./nginx</code><br>    <i style="color:red">查看系统后台运行命令：</i> <code>netstat -lntp</code> 若看到 nginx:master就证明已经在后台运行了<br>    <i style="color:red">查看nginx是否启动成功命令：</i> <code>ps -ef | grep nginx</code> 若看到 nginx:worker process就证明启动成功了</p><p>  <strong>3、本地访问centOS上的nginx</strong><br>  输入命令: <code>ip addr</code> 获取虚拟机IP地址<br>  然后在本机浏览器内输入，这时你的浏览器什么也访问不到，惊喜不？？？嘎嘎嘎</p><p>  <strong>4、解决防火墙导致无法访问虚拟机的问题</strong><br>  ①首先在centOS中输入命令： <code>systemctl status firewalld</code> 查看防火墙是否开启<br>  <span style="color:red">若与下图一样则表示防火墙已开启，若启动防火墙后，默认没有开启任何端口，需要手动开启端口。nginx默认是80端口</span></p><p>  <img src="https://img1.imgtp.com/2023/07/23/Q37x13kM.png" alt="虚拟机防火墙开启"></p><p>  ②然后手动开启防火墙端口访问<br>  操作命令：<code>firewall-cmd --zone=public --add-port=80/tcp --permanent</code><br>  命令含义： —zone #作用域 —add-port=80/tcp #添加端口，格式为：端口/通讯协议 —permanent #永久生效，没有此参数重启后失效。</p><p>  ③开启端口后需要重启防火墙生效<br>  操作命令：<code>systemctl restart firewalld.service</code> </p><p>  ④查看防火墙是否开启了80端口的访问<br>  操作命令：<code>firewall-cmd --list-all</code>   若看到 ports:80/tcp 就证明已经开启80端口<br>  重启nginx命令： <code>./nginx -s reload</code></p><p>  ⑤需要查看centos的本机ip，进行本地访问nginx页面<br>  操作命令：<code>ip addr</code><br>  <img src="https://img1.imgtp.com/2023/07/23/xtVeC2hS.png" alt="虚拟机IP地址"><br>  然后 192.168.23.129/ 即可访问到nginx页面了<br>  <img src="https://img1.imgtp.com/2023/07/23/QlStfgmH.png" alt="nginx页面"></p><h3 id="二、将打包好的项目部署到nginx上"><a href="#二、将打包好的项目部署到nginx上" class="headerlink" title="二、将打包好的项目部署到nginx上"></a>二、将打包好的项目部署到nginx上</h3><p>  ①首先将项目打包npm run build，打包后输出的路径为 dist<br>  ②然后在 nginx/html 下创建存放项目的文件 system<br>  ③然后将dist内的文件放到 system 文件内<br>  ④修改 nginx.conf 配置文件，添加反向代理(这里不添加转发，因为该项目是静态的)<br>  <img src="https://img1.imgtp.com/2023/07/23/HYLjXmEi.png" alt="项目部署到nginx"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux系统 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+            <tag> Nginx </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linux系统：虚拟机VMware、centOS_7、fianlshell以及Nginx的使用(七)</title>
       <link href="/2023/07/20/finalshell%E8%BF%9E%E6%8E%A5%E4%B8%8D%E4%B8%8A%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95-%E4%B8%83/"/>
       <url>/2023/07/20/finalshell%E8%BF%9E%E6%8E%A5%E4%B8%8D%E4%B8%8A%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95-%E4%B8%83/</url>
@@ -58,38 +85,11 @@
     
     
     <entry>
-      <title>Linux系统：虚拟机VMware、centOS_7、fianlshell以及Nginx的使用(五)</title>
-      <link href="/2023/07/20/%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%8A%E5%AE%89%E8%A3%85Nginx-%E4%BA%94/"/>
-      <url>/2023/07/20/%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%8A%E5%AE%89%E8%A3%85Nginx-%E4%BA%94/</url>
-      
-        <content type="html"><![CDATA[<h2 id="在虚拟机上安装Nginx"><a href="#在虚拟机上安装Nginx" class="headerlink" title="在虚拟机上安装Nginx"></a>在虚拟机上安装Nginx</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> Linux系统 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Linux </tag>
-            
-            <tag> Nginx </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Linux系统：虚拟机VMware、centOS_7、fianlshell以及Nginx的使用(四)</title>
       <link href="/2023/07/20/finalshell%E4%B8%8E%E8%99%9A%E6%8B%9F%E6%9C%BAcentOS-7%E7%9A%84%E9%93%BE%E6%8E%A5%E5%8F%8A%E4%BD%BF%E7%94%A8-%E5%9B%9B/"/>
       <url>/2023/07/20/finalshell%E4%B8%8E%E8%99%9A%E6%8B%9F%E6%9C%BAcentOS-7%E7%9A%84%E9%93%BE%E6%8E%A5%E5%8F%8A%E4%BD%BF%E7%94%A8-%E5%9B%9B/</url>
       
-        <content type="html"><![CDATA[<h2 id="finalshell与虚拟机centOS-7的链接及使用"><a href="#finalshell与虚拟机centOS-7的链接及使用" class="headerlink" title="finalshell与虚拟机centOS_7的链接及使用"></a>finalshell与虚拟机centOS_7的链接及使用</h2><p>  1、finalshell下载地址：<a href="http://www.hostbuf.com/，然后安装即可。">http://www.hostbuf.com/，然后安装即可。</a><br>  2、将安装好的finalshell打开，安装以下步骤进行建立链接，访问本地虚拟机<br>  <img src="https://img1.imgtp.com/2023/07/20/OoRx3ABE.png" alt="Workstation 17 Pro for Windows"><br>  这里的主机要写成 虚拟机的 IP <span style="color:red">（虚拟机IP地址查询：ip addr）</span>名称与主机保持一致，用户名：root，密码：123456，然后点击确定，然后双击主机名，点击保存并接受<br>  <img src="https://img1.imgtp.com/2023/07/20/yCT8hCQs.png" alt="Workstation 17 Pro for Windows"><br>  <img src="https://img1.imgtp.com/2023/07/20/WqKLSLHL.png" alt="Workstation 17 Pro for Windows"><br>  3、然后链接成功<br>  <img src="https://img1.imgtp.com/2023/07/20/YHGB028y.png" alt="Workstation 17 Pro for Windows"></p><p>  5、若想学习虚拟机如何安装Nginx，请查阅这篇文章：<a href="https://www.dadong.fun/2023/07/20/%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%8A%E5%AE%89%E8%A3%85Nginx/">虚拟机上安装Nginx</a></p><p>  6、<span style="color:red">建议将第五步做完后再进行这一项。</span> 若想让其他电脑链接你电脑上的虚拟机，请参考这篇文章：<a href="https://www.dadong.fun/2023/07/20/%E5%85%B6%E4%BB%96%E7%94%B5%E8%84%91%E9%93%BE%E6%8E%A5%E8%AE%BF%E9%97%AE%E8%87%AA%E5%B7%B1%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA/">其他电脑访问自己电脑的虚拟机并用finalshell进行链接</a></p><p>  7、关于finalshell链接不上虚拟机的解决方法：<a href="https://www.dadong.fun/2023/07/20/finalshell%E8%BF%9E%E6%8E%A5%E4%B8%8D%E4%B8%8A%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/">其他电脑访问自己电脑的虚拟机并用finalshell进行链接</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="finalshell与虚拟机centOS-7的链接及使用"><a href="#finalshell与虚拟机centOS-7的链接及使用" class="headerlink" title="finalshell与虚拟机centOS_7的链接及使用"></a>finalshell与虚拟机centOS_7的链接及使用</h2><p>  1、finalshell下载地址：<a href="http://www.hostbuf.com/，然后安装即可。">http://www.hostbuf.com/，然后安装即可。</a><br>  2、将安装好的finalshell打开，安装以下步骤进行建立链接，访问本地虚拟机<br>  <img src="https://img1.imgtp.com/2023/07/20/OoRx3ABE.png" alt="Workstation 17 Pro for Windows"><br>  这里的主机要写成 虚拟机的 IP <span style="color:red">（虚拟机IP地址查询：ip addr）</span>名称与主机保持一致，用户名：root，密码：123456，然后点击确定，然后双击主机名，点击保存并接受<br>  <img src="https://img1.imgtp.com/2023/07/20/yCT8hCQs.png" alt="Workstation 17 Pro for Windows"><br>  <img src="https://img1.imgtp.com/2023/07/20/WqKLSLHL.png" alt="Workstation 17 Pro for Windows"><br>  3、然后链接成功<br>  <img src="https://img1.imgtp.com/2023/07/20/YHGB028y.png" alt="Workstation 17 Pro for Windows"></p><p>  5、若想学习虚拟机如何安装Nginx，请查阅这篇文章：<a href="http://localhost:4000/2023/07/23/%E5%9C%A8%E8%99%9A%E6%8B%9F%E6%9C%BA%E4%B8%8A%E5%AE%89%E8%A3%85Nginx-%E4%BA%94/">虚拟机上安装Nginx</a></p><p>  6、<span style="color:red">建议将第五步做完后再进行这一项。</span> 若想让其他电脑链接你电脑上的虚拟机，请参考这篇文章：<a href="http://localhost:4000/2023/07/20/%E5%85%B6%E4%BB%96%E7%94%B5%E8%84%91%E9%93%BE%E6%8E%A5%E8%AE%BF%E9%97%AE%E8%87%AA%E5%B7%B1%E7%94%B5%E8%84%91%E4%B8%8A%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA-%E5%85%AD/">其他电脑访问自己电脑的虚拟机并用finalshell进行链接</a></p><p>  7、关于finalshell链接不上虚拟机的解决方法：<a href="http://localhost:4000/2023/07/20/finalshell%E8%BF%9E%E6%8E%A5%E4%B8%8D%E4%B8%8A%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95-%E4%B8%83/">其他电脑访问自己电脑的虚拟机并用finalshell进行链接</a></p>]]></content>
       
       
       <categories>
@@ -666,7 +666,7 @@
       <link href="/js/runtime.js"/>
       <url>/js/runtime.js</url>
       
-        <content type="html"><![CDATA[var now = new Date()function createtime () {  now.setTime(now.getTime() + 1e3)  var e = new Date('06/21/2023 00:00:00'),    t = Math.trunc(234e8 + ((now - e) / 1e3) * 17),    a = (t / 1496e5).toFixed(6),    o = new Date('06/21/2023 00:00:00'),    n = (now - o) / 1e3 / 60 / 60 / 24,    r = Math.floor(n),    i = (now - o) / 1e3 / 60 / 60 - 24 * r,    s = Math.floor(i)  1 == String(s).length && (s = '0' + s)  var d = (now - o) / 1e3 / 60 - 1440 * r - 60 * s,    l = Math.floor(d)  1 == String(l).length && (l = '0' + l)  var g = (now - o) / 1e3 - 86400 * r - 3600 * s - 60 * l,    b = Math.round(g)  1 == String(b).length && (b = '0' + b)  let c = ''    ; (c =      s < 18 && s >= 9        ? `<div style="font-size:13px;font-weight:bold">本站运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i>  <br> 一看你就在摸鱼😂😂😂</div>`        : `<div style="font-size:13px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 半夜不睡觉？还在偷偷卷？🤣</div>`),      document.getElementById('workboard') &&      (document.getElementById('workboard').innerHTML = c)}setInterval(() => {  createtime()}, 1e3)]]></content>
+        <content type="html"><![CDATA[var now = new Date()function createtime () {  now.setTime(now.getTime() + 1e3)  var e = new Date('06/21/2023 00:00:00'),    t = Math.trunc(234e8 + ((now - e) / 1e3) * 17),    a = (t / 1496e5).toFixed(6),    o = new Date('06/21/2023 00:00:00'),    n = (now - o) / 1e3 / 60 / 60 / 24,    r = Math.floor(n),    i = (now - o) / 1e3 / 60 / 60 - 24 * r,    s = Math.floor(i)  1 == String(s).length && (s = '0' + s)  var d = (now - o) / 1e3 / 60 - 1440 * r - 60 * s,    l = Math.floor(d)  1 == String(l).length && (l = '0' + l)  var g = (now - o) / 1e3 - 86400 * r - 3600 * s - 60 * l,    b = Math.round(g)  1 == String(b).length && (b = '0' + b)  let c = ''    ; (c =      s < 18 && s >= 9        ? `<div style="font-size:13px;font-weight:bold">本站已运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i>  <br> 一看你就在摸鱼😂😂😂</div>`        : `<div style="font-size:13px;font-weight:bold">本站已运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 半夜不睡觉？还在偷偷卷？🤣</div>`),      document.getElementById('workboard') &&      (document.getElementById('workboard').innerHTML = c)}setInterval(() => {  createtime()}, 1e3)]]></content>
       
     </entry>
     
@@ -678,17 +678,6 @@
       <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>日常分享--项目下载</title>
-      <link href="/share/index.html"/>
-      <url>/share/index.html</url>
-      
-        <content type="html"><![CDATA[<h3 id="电脑商城后台管理系统-APP"><a href="#电脑商城后台管理系统-APP" class="headerlink" title="电脑商城后台管理系统(APP)"></a>电脑商城后台管理系统(APP)</h3><!-- [点击下载](/download/xx.exe) --><p>  <a href="https://gitee.com/dadong666/computer-shop">点击下载—跳转到gitee</a></p><h4 id="下载说明："><a href="#下载说明：" class="headerlink" title="下载说明："></a>下载说明：</h4>  <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="number">1.</span>首先在本地（电脑） 新建文件夹</span><br><span class="line"><span class="number">2.</span>然后使用 打开 git <span class="title class_">Bash</span></span><br><span class="line"><span class="number">3.</span>然后 git clone <span class="attr">https</span>:<span class="comment">//gitee.com/dadong666/computer-shop.git</span></span><br><span class="line"><span class="number">4.</span>然后 删除新建文件夹中的隐藏文件 .<span class="property">git</span></span><br><span class="line"><span class="number">5.</span>然后在 git <span class="title class_">Bash</span> 中进行 git init 初始化仓库</span><br><span class="line"><span class="number">6.</span>然后用 打开克隆下来的文件夹，点击 <span class="variable constant_">APP</span>.<span class="property">exe</span></span><br></pre></td></tr></table></figure>]]></content>
       
     </entry>
     
@@ -711,6 +700,17 @@
       <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>日常分享--项目下载</title>
+      <link href="/share/index.html"/>
+      <url>/share/index.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="电脑商城后台管理系统-APP"><a href="#电脑商城后台管理系统-APP" class="headerlink" title="电脑商城后台管理系统(APP)"></a>电脑商城后台管理系统(APP)</h3><!-- [点击下载](/download/xx.exe) --><p>  <a href="https://gitee.com/dadong666/computer-shop">点击下载—跳转到gitee</a></p><h4 id="下载说明："><a href="#下载说明：" class="headerlink" title="下载说明："></a>下载说明：</h4>  <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="number">1.</span>首先在本地（电脑） 新建文件夹</span><br><span class="line"><span class="number">2.</span>然后使用 打开 git <span class="title class_">Bash</span></span><br><span class="line"><span class="number">3.</span>然后 git clone <span class="attr">https</span>:<span class="comment">//gitee.com/dadong666/computer-shop.git</span></span><br><span class="line"><span class="number">4.</span>然后 删除新建文件夹中的隐藏文件 .<span class="property">git</span></span><br><span class="line"><span class="number">5.</span>然后在 git <span class="title class_">Bash</span> 中进行 git init 初始化仓库</span><br><span class="line"><span class="number">6.</span>然后用 打开克隆下来的文件夹，点击 <span class="variable constant_">APP</span>.<span class="property">exe</span></span><br></pre></td></tr></table></figure>]]></content>
       
     </entry>
     
