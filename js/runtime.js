@@ -19,7 +19,7 @@ function createtime () {
   let c = ''
     ; (c =
       s < 18 && s >= 9
-        ? `<div style="font-size:13px;font-weight:bold">本站已运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i>  <br> 一看你就在摸鱼😂😂😂</div>`
+        ? `<div style="font-size:13px;font-weight:bold">本站已运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i>  <br> 不要偷偷摸鱼噢😂😂😂</div>`
         : `<div style="font-size:13px;font-weight:bold">本站已运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 半夜不睡觉？还在偷偷卷？🤣</div>`),
       document.getElementById('workboard') &&
       (document.getElementById('workboard').innerHTML = c)
